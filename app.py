@@ -1,4 +1,9 @@
 # app.py
+# Reliable path base for Streamlit Cloud and local:
+BASE = os.getcwd()  # uses the working directory that Streamlit runs app from
+DATA_DIR = os.path.join(BASE, "data")
+MODELS_DIR = os.path.join(BASE, "models")
+
 """
 Streamlit app (robust + lazy-loading) for:
 - Predicting Sri Lanka monthly tourist arrivals
