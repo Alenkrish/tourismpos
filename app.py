@@ -4,18 +4,24 @@ Streamlit app (robust + lazy-loading) for:
 - Predicting Sri Lanka monthly tourist arrivals
 - Suggesting attractions for a selected month
 
-Paths are fixed for C:\Krishna\projects\POC
+This version uses repository-relative paths so it works on Windows and on Linux (Streamlit Cloud).
 """
 
 import os
-import joblib
+from datetime import datetime
+
 import pandas as pd
 import numpy as np
 import streamlit as st
-from datetime import datetime
 
-# ------------------ USER PATHS ------------------
-BASE = r"C:\Krishna\projects\POC"
+# Try to import joblib; if not present, we'll handle gracefully later.
+try:
+    import joblib
+except Exception:
+    joblib = None
+
+# ------------------ PATHS (repository-relative, cross-platform) ------------------
+BASE = os.path.abspath(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE, "data")
 MODELS_DIR = os.path.join(BASE, "models")
 
@@ -48,13 +54,14 @@ def safe_read_csv(path, parse_dates=None):
 
 @st.cache_resource
 def load_model_safe(path):
-    """Load joblib model if exists, else return None. Cached to avoid reloading."""
+    """Load joblib model if exists and joblib available, else return None."""
     try:
+        if joblib is None:
+            return None
         if path is None or not os.path.exists(path):
             return None
         return joblib.load(path)
-    except Exception as e:
-        # do not raise — show warning in UI where used
+    except Exception:
         return None
 
 # ------------------ LAZY LOAD DATA ------------------
@@ -65,11 +72,15 @@ df_hidden = safe_read_csv(HIDDEN_GEMS)
 
 # ------------------ SIDEBAR (USER INPUTS) ------------------
 st.sidebar.header("Preferences")
-selected_month = st.sidebar.selectbox("Select month", list(range(1,13)), index=datetime.now().month-1)
+selected_month = st.sidebar.selectbox("Select month", list(range(1, 13)), index=max(0, datetime.now().month - 1))
 hidden_pref = st.sidebar.slider("Prefer hidden gems (0 = popular, 1 = hidden)", 0.0, 1.0, 0.3, step=0.1)
 cat_list = ["All"]
 if df_monthly is not None and "category" in df_monthly.columns:
-    cat_list = ["All"] + sorted(df_monthly["category"].dropna().unique().tolist())
+    try:
+        cats = sorted(df_monthly["category"].dropna().unique().tolist())
+        cat_list = ["All"] + cats
+    except Exception:
+        pass
 category_filter = st.sidebar.selectbox("Category", cat_list)
 num_results = st.sidebar.slider("Number of suggestions", 3, 15, 7)
 
@@ -78,13 +89,12 @@ st.markdown("---")
 # ------------------ PART 1: PREDICT NATIONAL ARRIVALS ------------------
 st.subheader("Predicted National Tourist Arrivals (Sri Lanka)")
 
-# Helper to compute fallback prediction
 def historical_month_mean(df, month, window_months=60):
+    """Return historical mean arrivals for a month (recent window) or None."""
     try:
-        s = df[df["month"]==month]["arrivals"]
+        s = df[df["month"] == month]["arrivals"]
         if s.empty:
             return None
-        # use recent window if available
         return int(s.tail(window_months).mean())
     except Exception:
         return None
@@ -92,15 +102,15 @@ def historical_month_mean(df, month, window_months=60):
 pred_arrivals = None
 arrivals_model = None
 
-# lazy-load arrivals model only when needed
-if os.path.exists(ARRIVALS_MODEL_PATH):
+# lazy-load arrivals model only when needed; do not crash if not available
+if os.path.exists(ARRIVALS_MODEL_PATH) and joblib is not None:
     with st.spinner("Loading arrivals model..."):
         arrivals_model = load_model_safe(ARRIVALS_MODEL_PATH)
 
 if df_arrivals is None:
     st.warning(f"Missing arrivals file: {os.path.basename(CLEANED_ARRIVALS)}. Predictions will be unavailable.")
 else:
-    # ensure date col is datetime
+    # ensure date col is datetime and derive month/year if required
     if "date" in df_arrivals.columns:
         try:
             df_arrivals["date"] = pd.to_datetime(df_arrivals["date"], errors="coerce")
@@ -139,8 +149,9 @@ else:
             pred_arrivals = historical_month_mean(df_arrivals, selected_month)
             if pred_arrivals is not None:
                 st.metric("Predicted arrivals (fallback mean)", f"{pred_arrivals:,}")
+            else:
+                st.info("Not enough historical data to predict arrivals.")
     else:
-        # model missing -> fallback
         pred_arrivals = historical_month_mean(df_arrivals, selected_month)
         if pred_arrivals is not None:
             st.metric("Predicted arrivals (historical mean)", f"{pred_arrivals:,}")
@@ -168,23 +179,26 @@ else:
     except Exception:
         pass
 
-    dfq = df_monthly[df_monthly["month"]==int(selected_month)].copy()
+    dfq = df_monthly[df_monthly["month"] == int(selected_month)].copy()
     if category_filter != "All":
-        dfq = dfq[dfq["category"]==category_filter]
+        try:
+            dfq = dfq[dfq["category"] == category_filter]
+        except Exception:
+            pass
 
     if dfq.empty:
         st.warning("No attractions found for this month / filter.")
     else:
-        # lazy-load popularity model if present
+        # lazy-load popularity model if present and joblib available
         pop_model = None
-        if os.path.exists(POPULARITY_MODEL_PATH):
+        if os.path.exists(POPULARITY_MODEL_PATH) and joblib is not None:
             with st.spinner("Loading popularity model..."):
                 pop_model = load_model_safe(POPULARITY_MODEL_PATH)
 
         # create prediction column
         if pop_model is not None:
             try:
-                X = dfq[["category","rating","reviews","month"]]
+                X = dfq[["category", "rating", "reviews", "month"]]
                 preds = pop_model.predict(X)
                 dfq["pred_score"] = preds
             except Exception:
@@ -194,17 +208,15 @@ else:
 
         # hidden gem score merge or compute
         if df_hidden is not None and "attraction_name" in df_hidden.columns:
-            # merge on attraction name if present
             try:
-                dfq = dfq.merge(df_hidden[["attraction_name","hidden_gem_score"]], on="attraction_name", how="left")
+                dfq = dfq.merge(df_hidden[["attraction_name", "hidden_gem_score"]], on="attraction_name", how="left")
             except Exception:
                 dfq["hidden_gem_score"] = dfq.get("hidden_gem_score", 0)
         else:
-            # compute a simple hidden_gem_score: fewer reviews + good rating
             try:
                 rev_rank = dfq["reviews"].rank(ascending=True)
                 rating_norm = (dfq["rating"] - dfq["rating"].min()) / (dfq["rating"].max() - dfq["rating"].min() + 1e-9)
-                dfq["hidden_gem_score"] = ((rev_rank / rev_rank.max())*60 + rating_norm*40).round(0)
+                dfq["hidden_gem_score"] = ((rev_rank / rev_rank.max()) * 60 + rating_norm * 40).round(0)
             except Exception:
                 dfq["hidden_gem_score"] = 0
 
@@ -213,18 +225,18 @@ else:
             try:
                 if s.max() == s.min():
                     return pd.Series(50, index=s.index)
-                return 100*(s - s.min())/(s.max() - s.min())
+                return 100 * (s - s.min()) / (s.max() - s.min())
             except Exception:
                 return pd.Series(50, index=s.index)
 
         dfq["pred_norm"] = norm0to100(dfq["pred_score"].fillna(0))
         dfq["hidden_norm"] = norm0to100(dfq["hidden_gem_score"].fillna(0))
-        dfq["final_score"] = (1 - hidden_pref)*dfq["pred_norm"] + hidden_pref*dfq["hidden_norm"]
+        dfq["final_score"] = (1 - hidden_pref) * dfq["pred_norm"] + hidden_pref * dfq["hidden_norm"]
 
         df_top = dfq.sort_values("final_score", ascending=False).head(num_results).reset_index(drop=True)
 
         # Left: list, Right: map
-        left, right = st.columns([1,1])
+        left, right = st.columns([1, 1])
         with left:
             st.write(f"Top {len(df_top)} attractions (weighted):")
             for i, r in df_top.iterrows():
@@ -233,9 +245,9 @@ else:
                 st.write("---")
         with right:
             # Map if coords available
-            map_df = df_top.dropna(subset=["lat","lon"])[["lat","lon","attraction_name","final_score"]]
+            map_df = df_top.dropna(subset=["lat", "lon"])[["lat", "lon", "attraction_name", "final_score"]]
             if not map_df.empty:
-                map_df = map_df.rename(columns={"lat":"latitude","lon":"longitude"})
+                map_df = map_df.rename(columns={"lat": "latitude", "lon": "longitude"})
                 try:
                     st.map(map_df)
                 except Exception:
@@ -244,7 +256,7 @@ else:
                 st.info("No coordinates available for top results.")
 
         # suggestions table & download
-        display_cols = [c for c in ["attraction_name","district","category","rating","reviews","pred_score","hidden_gem_score","final_score","lat","lon"] if c in df_top.columns]
+        display_cols = [c for c in ["attraction_name", "district", "category", "rating", "reviews", "pred_score", "hidden_gem_score", "final_score", "lat", "lon"] if c in df_top.columns]
         st.subheader("Suggestions Table")
         st.dataframe(df_top[display_cols].round(2))
 
@@ -252,4 +264,4 @@ else:
         st.download_button("Download suggestions CSV", csv, file_name=f"suggestions_month_{selected_month}.csv", mime="text/csv")
 
 st.markdown("---")
-st.caption("Note: Models are loaded lazily. If models are missing, app uses historical averages / heuristics. Train the models and place .joblib files in the models folder to enable model predictions.")
+st.caption("Note: Models are loaded lazily. If models are missing, app uses historical averages / heuristics. Train the models and place .joblib files in the models folder to enable ML predictions.")
