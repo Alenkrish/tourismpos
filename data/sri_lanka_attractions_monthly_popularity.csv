@@ -1,0 +1,385 @@
+attraction_name,district,category,type,month,rating,reviews,popularity_score,lat,lon
+Sigiriya Rock Fortress,Matale,Heritage,Historical,1,4.7,8500,100,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,2,4.7,8500,100,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,3,4.7,8500,100,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,4,4.7,8500,100,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,5,4.7,8500,97,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,6,4.7,8500,95,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,7,4.7,8500,89,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,8,4.7,8500,89,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,9,4.7,8500,97,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,10,4.7,8500,83,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,11,4.7,8500,97,7.9579,80.7608
+Sigiriya Rock Fortress,Matale,Heritage,Historical,12,4.7,8500,93,7.9579,80.7608
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,1,4.6,12000,97,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,2,4.6,12000,100,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,3,4.6,12000,100,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,4,4.6,12000,95,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,5,4.6,12000,93,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,6,4.6,12000,94,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,7,4.6,12000,84,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,8,4.6,12000,85,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,9,4.6,12000,84,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,10,4.6,12000,83,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,11,4.6,12000,98,7.293,80.6413
+Temple of the Tooth (Sri Dalada Maligawa),Kandy,Cultural,Religious,12,4.6,12000,97,7.293,80.6413
+Ella Rock,Badulla,Nature,Scenic,1,4.5,6000,100,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,2,4.5,6000,100,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,3,4.5,6000,89,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,4,4.5,6000,84,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,5,4.5,6000,69,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,6,4.5,6000,67,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,7,4.5,6000,71,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,8,4.5,6000,79,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,9,4.5,6000,81,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,10,4.5,6000,96,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,11,4.5,6000,100,6.8456,81.0534
+Ella Rock,Badulla,Nature,Scenic,12,4.5,6000,100,6.8456,81.0534
+Little Adams Peak,Badulla,Nature,Hiking,1,4.4,4200,100,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,2,4.4,4200,100,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,3,4.4,4200,90,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,4,4.4,4200,87,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,5,4.4,4200,82,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,6,4.4,4200,73,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,7,4.4,4200,65,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,8,4.4,4200,76,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,9,4.4,4200,93,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,10,4.4,4200,97,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,11,4.4,4200,100,6.8398,81.0383
+Little Adams Peak,Badulla,Nature,Hiking,12,4.4,4200,100,6.8398,81.0383
+Galle Fort,Galle,Heritage,Historical,1,4.6,9000,96,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,2,4.6,9000,100,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,3,4.6,9000,90,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,4,4.6,9000,96,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,5,4.6,9000,96,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,6,4.6,9000,87,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,7,4.6,9000,94,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,8,4.6,9000,79,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,9,4.6,9000,83,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,10,4.6,9000,87,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,11,4.6,9000,96,6.0275,80.2167
+Galle Fort,Galle,Heritage,Historical,12,4.6,9000,90,6.0275,80.2167
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,1,4.2,15000,100,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,2,4.2,15000,100,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,3,4.2,15000,92,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,4,4.2,15000,86,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,5,4.2,15000,76,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,6,4.2,15000,68,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,7,4.2,15000,72,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,8,4.2,15000,77,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,9,4.2,15000,90,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,10,4.2,15000,100,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,11,4.2,15000,100,7.3599,80.3594
+Pinnawala Elephant Orphanage,Kegalle,Eco,Wildlife,12,4.2,15000,100,7.3599,80.3594
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,1,4.7,7000,100,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,2,4.7,7000,100,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,3,4.7,7000,99,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,4,4.7,7000,90,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,5,4.7,7000,79,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,6,4.7,7000,70,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,7,4.7,7000,73,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,8,4.7,7000,80,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,9,4.7,7000,91,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,10,4.7,7000,100,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,11,4.7,7000,100,6.8009,80.799
+Horton Plains (World's End),Nuwara Eliya,Nature,Scenic,12,4.7,7000,100,6.8009,80.799
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,1,4.5,5000,100,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,2,4.5,5000,100,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,3,4.5,5000,100,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,4,4.5,5000,94,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,5,4.5,5000,82,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,6,4.5,5000,78,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,7,4.5,5000,82,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,8,4.5,5000,83,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,9,4.5,5000,85,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,10,4.5,5000,92,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,11,4.5,5000,100,6.8167,80.4667
+Adam's Peak (Poonagala trails),Nuwara Eliya,Religious,Pilgrimage,12,4.5,5000,100,6.8167,80.4667
+Mirissa Beach,Matara,Beach,Relaxation,1,4.5,11000,100,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,2,4.5,11000,100,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,3,4.5,11000,94,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,4,4.5,11000,87,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,5,4.5,11000,77,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,6,4.5,11000,72,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,7,4.5,11000,75,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,8,4.5,11000,77,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,9,4.5,11000,91,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,10,4.5,11000,98,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,11,4.5,11000,100,5.948,80.4545
+Mirissa Beach,Matara,Beach,Relaxation,12,4.5,11000,100,5.948,80.4545
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,1,4.4,8000,100,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,2,4.4,8000,100,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,3,4.4,8000,90,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,4,4.4,8000,96,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,5,4.4,8000,77,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,6,4.4,8000,72,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,7,4.4,8000,80,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,8,4.4,8000,80,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,9,4.4,8000,84,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,10,4.4,8000,90,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,11,4.4,8000,93,6.3667,81.52
+Yala National Park (quiet areas),Hambantota,Wildlife,Safari,12,4.4,8000,94,6.3667,81.52
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,1,4.1,900,86,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,2,4.1,900,86,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,3,4.1,900,92,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,4,4.1,900,86,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,5,4.1,900,80,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,6,4.1,900,78,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,7,4.1,900,78,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,8,4.1,900,72,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,9,4.1,900,70,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,10,4.1,900,76,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,11,4.1,900,80,8.103,80.5667
+Ritigala Forest Monastery,Anuradhapura,Heritage,Historical,12,4.1,900,80,8.103,80.5667
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,1,4.3,700,100,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,2,4.3,700,100,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,3,4.3,700,84,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,4,4.3,700,73,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,5,4.3,700,68,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,6,4.3,700,65,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,7,4.3,700,69,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,8,4.3,700,80,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,9,4.3,700,87,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,10,4.3,700,94,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,11,4.3,700,100,7.8314,81.7246
+Kumana Bird Sanctuary,Ampara,Eco,Wildlife,12,4.3,700,100,7.8314,81.7246
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,1,4.2,1200,100,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,2,4.2,1200,96,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,3,4.2,1200,89,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,4,4.2,1200,74,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,5,4.2,1200,71,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,6,4.2,1200,71,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,7,4.2,1200,66,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,8,4.2,1200,74,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,9,4.2,1200,85,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,10,4.2,1200,91,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,11,4.2,1200,100,6.864,80.75
+Hakgala Botanical Garden lesser trails,Nuwara Eliya,Nature,Botanical,12,4.2,1200,100,6.864,80.75
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,1,4.3,1100,100,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,2,4.3,1100,91,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,3,4.3,1100,84,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,4,4.3,1100,76,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,5,4.3,1100,72,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,6,4.3,1100,66,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,7,4.3,1100,72,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,8,4.3,1100,67,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,9,4.3,1100,82,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,10,4.3,1100,90,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,11,4.3,1100,100,7.267,80.837
+Knuckles Mountain Range viewpoint,Matale,Nature,Hiking,12,4.3,1100,98,7.267,80.837
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,1,4.3,5000,100,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,2,4.3,5000,100,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,3,4.3,5000,84,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,4,4.3,5000,80,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,5,4.3,5000,69,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,6,4.3,5000,69,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,7,4.3,5000,71,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,8,4.3,5000,84,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,9,4.3,5000,90,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,10,4.3,5000,96,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,11,4.3,5000,100,6.858,81.0638
+Ravana Falls (hidden trail),Badulla,Nature,Waterfall,12,4.3,5000,100,6.858,81.0638
+Madu River Backwaters (Eco route),Galle,Eco,Boat,1,4.2,2000,100,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,2,4.2,2000,100,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,3,4.2,2000,95,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,4,4.2,2000,77,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,5,4.2,2000,64,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,6,4.2,2000,72,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,7,4.2,2000,67,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,8,4.2,2000,79,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,9,4.2,2000,78,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,10,4.2,2000,92,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,11,4.2,2000,100,6.215,80.0667
+Madu River Backwaters (Eco route),Galle,Eco,Boat,12,4.2,2000,100,6.215,80.0667
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,1,4.1,1800,91,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,2,4.1,1800,93,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,3,4.1,1800,83,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,4,4.1,1800,81,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,5,4.1,1800,77,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,6,4.1,1800,74,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,7,4.1,1800,73,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,8,4.1,1800,68,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,9,4.1,1800,70,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,10,4.1,1800,87,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,11,4.1,1800,88,7.245,80.5
+Kithulgala River Trails (local rafting),Kegalle,Adventure,Rafting,12,4.1,1800,88,7.245,80.5
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,1,4.4,1300,99,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,2,4.4,1300,96,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,3,4.4,1300,100,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,4,4.4,1300,94,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,5,4.4,1300,98,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,6,4.4,1300,93,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,7,4.4,1300,81,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,8,4.4,1300,84,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,9,4.4,1300,82,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,10,4.4,1300,87,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,11,4.4,1300,81,6.975,80.8
+Poonagala Tea Estate (small estate experience),Nuwara Eliya,Cultural,Tea Estate,12,4.4,1300,92,6.975,80.8
+Sembuwatta Lake (hidden),Matale,Nature,Lake,1,4.0,600,100,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,2,4.0,600,85,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,3,4.0,600,78,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,4,4.0,600,65,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,5,4.0,600,64,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,6,4.0,600,64,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,7,4.0,600,69,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,8,4.0,600,69,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,9,4.0,600,84,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,10,4.0,600,82,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,11,4.0,600,88,7.2411,80.6833
+Sembuwatta Lake (hidden),Matale,Nature,Lake,12,4.0,600,99,7.2411,80.6833
+Meemure Village (remote cultural),Kandy,Cultural,Village,1,4.3,400,86,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,2,4.3,400,86,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,3,4.3,400,78,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,4,4.3,400,84,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,5,4.3,400,76,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,6,4.3,400,81,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,7,4.3,400,76,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,8,4.3,400,69,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,9,4.3,400,70,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,10,4.3,400,70,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,11,4.3,400,77,7.259,80.92
+Meemure Village (remote cultural),Kandy,Cultural,Village,12,4.3,400,84,7.259,80.92
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,1,4.1,300,82,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,2,4.1,300,90,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,3,4.1,300,86,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,4,4.1,300,83,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,5,4.1,300,83,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,6,4.1,300,75,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,7,4.1,300,74,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,8,4.1,300,69,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,9,4.1,300,81,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,10,4.1,300,75,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,11,4.1,300,75,6.9086,81.0697
+Bogoda Wooden Bridge,Badulla,Heritage,Bridge,12,4.1,300,83,6.9086,81.0697
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,1,4.2,900,100,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,2,4.2,900,97,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,3,4.2,900,91,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,4,4.2,900,81,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,5,4.2,900,67,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,6,4.2,900,63,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,7,4.2,900,65,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,8,4.2,900,63,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,9,4.2,900,76,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,10,4.2,900,98,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,11,4.2,900,100,6.254,80.199
+Kanneliya Rainforest (lesser trails),Galle,Eco,Rainforest,12,4.2,900,100,6.254,80.199
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,1,4.1,400,100,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,2,4.1,400,97,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,3,4.1,400,99,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,4,4.1,400,81,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,5,4.1,400,67,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,6,4.1,400,60,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,7,4.1,400,59,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,8,4.1,400,72,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,9,4.1,400,78,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,10,4.1,400,85,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,11,4.1,400,96,8.988,79.899
+Mannar Flamingo / Vankalai birding,Mannar,Eco,Wildlife,12,4.1,400,99,8.988,79.899
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,1,4.0,150,91,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,2,4.0,150,90,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,3,4.0,150,87,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,4,4.0,150,91,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,5,4.0,150,82,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,6,4.0,150,75,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,7,4.0,150,81,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,8,4.0,150,75,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,9,4.0,150,68,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,10,4.0,150,73,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,11,4.0,150,74,7.12,81.0
+Phewlaa Village homestay (rural experience),Badulla,Cultural,Homestay,12,4.0,150,76,7.12,81.0
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,1,4.0,120,80,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,2,4.0,120,86,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,3,4.0,120,73,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,4,4.0,120,79,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,5,4.0,120,71,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,6,4.0,120,69,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,7,4.0,120,65,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,8,4.0,120,62,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,9,4.0,120,66,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,10,4.0,120,64,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,11,4.0,120,71,7.25,81.7
+Kudumbigala Ramanaya temple,Ampara,Heritage,Religious,12,4.0,120,73,7.25,81.7
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,1,4.0,220,90,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,2,4.0,220,82,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,3,4.0,220,75,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,4,4.0,220,71,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,5,4.0,220,63,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,6,4.0,220,54,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,7,4.0,220,59,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,8,4.0,220,67,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,9,4.0,220,66,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,10,4.0,220,83,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,11,4.0,220,86,7.14,80.0
+One Tree Hill (hidden viewpoint),Gampaha,Nature,Viewpoint,12,4.0,220,94,7.14,80.0
+Dondra Head Lighthouse,Matara,Heritage,Landmark,1,4.1,800,86,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,2,4.1,800,84,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,3,4.1,800,85,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,4,4.1,800,90,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,5,4.1,800,87,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,6,4.1,800,78,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,7,4.1,800,81,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,8,4.1,800,70,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,9,4.1,800,76,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,10,4.1,800,73,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,11,4.1,800,78,5.9417,80.55
+Dondra Head Lighthouse,Matara,Heritage,Landmark,12,4.1,800,85,5.9417,80.55
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,1,3.9,80,76,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,2,3.9,80,80,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,3,3.9,80,86,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,4,3.9,80,78,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,5,3.9,80,81,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,6,3.9,80,69,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,7,3.9,80,73,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,8,3.9,80,75,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,9,3.9,80,59,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,10,3.9,80,67,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,11,3.9,80,75,7.32,81.65
+Ancient Tombs of Lahugala,Ampara,Heritage,Archaeology,12,3.9,80,76,7.32,81.65
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,1,3.9,200,96,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,2,3.9,200,86,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,3,3.9,200,81,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,4,3.9,200,70,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,5,3.9,200,68,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,6,3.9,200,61,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,7,3.9,200,62,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,8,3.9,200,65,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,9,3.9,200,73,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,10,3.9,200,83,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,11,3.9,200,93,7.25,80.47
+Kuda Oya Reservoir trails,Kegalle,Nature,Trail,12,3.9,200,94,7.25,80.47
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,1,3.9,150,100,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,2,3.9,150,100,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,3,3.9,150,93,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,4,3.9,150,78,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,5,3.9,150,76,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,6,3.9,150,65,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,7,3.9,150,60,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,8,3.9,150,70,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,9,3.9,150,77,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,10,3.9,150,93,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,11,3.9,150,100,6.9,80.7
+Kudagammana Falls (small),Nuwara Eliya,Nature,Waterfall,12,3.9,150,100,6.9,80.7
+Horagolla Estate Gardens,Colombo,Scenic,Garden,1,4.0,300,92,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,2,4.0,300,88,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,3,4.0,300,89,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,4,4.0,300,71,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,5,4.0,300,76,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,6,4.0,300,74,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,7,4.0,300,64,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,8,4.0,300,76,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,9,4.0,300,76,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,10,4.0,300,78,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,11,4.0,300,88,6.9271,79.9179
+Horagolla Estate Gardens,Colombo,Scenic,Garden,12,4.0,300,98,6.9271,79.9179
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,1,4.2,1600,95,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,2,4.2,1600,97,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,3,4.2,1600,95,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,4,4.2,1600,91,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,5,4.2,1600,95,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,6,4.2,1600,83,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,7,4.2,1600,83,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,8,4.2,1600,79,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,9,4.2,1600,82,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,10,4.2,1600,83,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,11,4.2,1600,90,7.9389,81.0
+Ancient temples of Polonnaruwa (lesser known),Polonnaruwa,Heritage,Historical,12,4.2,1600,88,7.9389,81.0
