@@ -108,6 +108,7 @@ elif page == "Model Prediction":
     month = st.selectbox("Select Month", range(1, 13))
     hidden_weight = st.slider("Hidden Gem Preference", 0.0, 1.0, 0.3)
 
+    # ---------------- ARRIVALS PREDICTION ----------------
     st.subheader("Predicted Tourist Arrivals")
 
     if df_arrivals is None:
@@ -118,8 +119,8 @@ elif page == "Model Prediction":
         if arrivals_model:
             latest = df_arrivals.sort_values("date")
             lag_1 = latest["arrivals"].iloc[-1]
-            lag_3 = latest["arrivals"].iloc[-3]
-            lag_12 = latest["arrivals"].iloc[-12]
+            lag_3 = latest["arrivals"].iloc[-3] if len(latest) >= 3 else lag_1
+            lag_12 = latest["arrivals"].iloc[-12] if len(latest) >= 12 else lag_1
 
             X = pd.DataFrame([{
                 "month": month,
@@ -135,33 +136,56 @@ elif page == "Model Prediction":
             avg = int(df_arrivals[df_arrivals["month"] == month]["arrivals"].mean())
             st.metric("Predicted Arrivals (Avg)", f"{avg:,}")
 
+    # ---------------- ATTRACTION SUGGESTIONS ----------------
     st.subheader("Top Tourist Attraction Suggestions")
 
     if df_monthly is None:
         st.warning("Monthly attraction data missing")
     else:
-        df = df_monthly[df_monthly["month"] == month]
+        df = df_monthly[df_monthly["month"] == month].copy()
+
+        # ---------- Popularity Prediction ----------
+        feature_cols = ["rating", "reviews", "month"]
 
         if popularity_model:
-            df["pred_score"] = popularity_model.predict(
-                df[["category", "rating", "reviews", "month"]]
+            try:
+                df["pred_score"] = popularity_model.predict(df[feature_cols])
+            except:
+                df["pred_score"] = df.get("popularity_score", 0)
+        else:
+            df["pred_score"] = df.get("popularity_score", 0)
+
+        # ---------- Hidden Gem Merge ----------
+        if df_hidden is not None and "attraction_name" in df_hidden.columns:
+            df = df.merge(
+                df_hidden[["attraction_name", "hidden_gem_score"]],
+                on="attraction_name",
+                how="left"
             )
         else:
-            df["pred_score"] = df["popularity_score"]
+            df["hidden_gem_score"] = 0
 
-        if df_hidden is not None:
-            df = df.merge(df_hidden, on="attraction_name", how="left")
+        # ---------- Final Scoring ----------
+        def normalize(s):
+            return 100 * (s - s.min()) / (s.max() - s.min() + 1e-9)
+
+        df["pred_norm"] = normalize(df["pred_score"])
+        df["hidden_norm"] = normalize(df["hidden_gem_score"])
 
         df["final_score"] = (
-            (1 - hidden_weight) * df["pred_score"] +
-            hidden_weight * df["hidden_gem_score"]
+            (1 - hidden_weight) * df["pred_norm"]
+            + hidden_weight * df["hidden_norm"]
         )
+
+        # ---------- Safe Column Selection ----------
+        display_cols = ["attraction_name", "rating", "final_score"]
+        if "category" in df.columns:
+            display_cols.insert(1, "category")
 
         st.dataframe(
             df.sort_values("final_score", ascending=False)
-            .head(7)[
-                ["attraction_name", "category", "rating", "final_score"]
-            ]
+              .head(7)[display_cols]
+              .round(2)
         )
 
 # ===================== MODEL PERFORMANCE =====================
